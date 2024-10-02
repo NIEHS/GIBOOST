@@ -9,7 +9,7 @@ $~~$
 
 **GIBOOST uses an optimized autoencoder to integrate reduced data from different DRMs, each optimized for distinct features such as cluster sensitivity, spatial relationships, and temporal dependencies.**
 
-**In our application, we used four different datasets to evaluate the effectiveness of GIBOOST: EMT data, iPSC data, spermatogenesis data, and placenta development data. Each dataset presents distinct structures representing different biological phenomena. We also used four different dimensionality reduction methods (DRMs) as input for GIBOOST: t-SNE, UMAP, PCA, and PHATE.**
+**In our application, we used four different datasets to evaluate the effectiveness of GIBOOST: EMT data, iPSC data, spermatogenesis data, and placenta development data. Each dataset presents distinct structures representing different biological phenomena. We also used four different DRM as input for GIBOOST: t-SNE, UMAP, PCA, and PHATE.**
 
 # A quick look to the GIBOOST tool
 
