@@ -2,17 +2,17 @@
 # Boosting Data Interpretation with GIBOOST to Enhance Visualization of High-Dimensional Data
 
 $~~$
-** Conventional dimensionality reduction methods (DRM) like t-SNE, UMAP, PCA, and PHATE optimize specific geometric features after data reduction such as separability and cluster sensitivity. However, these methods often fail to preserve both global and local structures, especially when used in isolation. **
+**Conventional dimensionality reduction methods (DRM) like t-SNE, UMAP, PCA, and PHATE optimize specific geometric features after data reduction such as separability and cluster sensitivity. However, these methods often fail to preserve both global and local structures, especially when used in isolation.**
 
-** To address these limitations, we introduce GIBOOST, a novel AI tool designed to enhance the visualization and interpretability of high-dimensional single-cell data. GIBOOST integrates optimized information from various dimensionality reduction methods (DRM), ensuring alignment with the cluster sensitivity metric called the Gradient Boosting Classifier Index (GI), which aims to minimize variance and bias in the original data.**
+**To address these limitations, we introduce GIBOOST, a novel AI tool designed to enhance the visualization and interpretability of high-dimensional single-cell data. GIBOOST integrates optimized information from various dimensionality reduction methods (DRM), ensuring alignment with the cluster sensitivity metric called the Gradient Boosting Classifier Index (GI), which aims to minimize variance and bias in the original data.**
 
 **For example, by integrating Separably clustered information and spatially clustered information, from different methods, we can enhance visualization by providing a combined Separably and spatially clustered information.**
 
 ![](Figure/Figure_1.png)
 
-** GIBOOST uses an optimized autoencoder to integrate reduced data from different DRMs, each optimized for distinct features such as cluster sensitivity, spatial relationships, and temporal dependencies. **
+**GIBOOST uses an optimized autoencoder to integrate reduced data from different DRMs, each optimized for distinct features such as cluster sensitivity, spatial relationships, and temporal dependencies.**
 
-** In our application, we used four different datasets to evaluate the effectiveness of GIBOOST: EMT data, iPSC data, spermatogenesis data, and placenta development data. Each dataset presents distinct structures representing different biological phenomena. We also used four different dimensionality reduction methods (DRMs) as input for GIBOOST: t-SNE, UMAP, PCA, and PHATE.**
+**In our application, we used four different datasets to evaluate the effectiveness of GIBOOST: EMT data, iPSC data, spermatogenesis data, and placenta development data. Each dataset presents distinct structures representing different biological phenomena. We also used four different dimensionality reduction methods (DRMs) as input for GIBOOST: t-SNE, UMAP, PCA, and PHATE.**
 
 # A quick look to the GIBOOST tool
 
