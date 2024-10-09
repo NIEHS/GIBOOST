@@ -49,8 +49,8 @@ load("demo_label.rdata")
 label_vector <- factor(demo_label)
 **Select the length of the sample data used by the AI tool in GIBOOST**
 ***It allows for the selection of two methods that provide complementary information for data integration.***
-***The longer the data length, the more optimal the selection will be.*** < br / >
-desired_length <- dim(demo_data)[1] < br / >
+***The longer the data length, the more optimal the selection will be.*** <br/>
+desired_length <- dim(demo_data)[1] <br/>
 
 source("giboost.R")
 decision <- giboost(normalized_sc_data, label_vector, desired_length)\
