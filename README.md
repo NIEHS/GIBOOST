@@ -57,7 +57,8 @@ source("giboost.R")<br/>
 decision <- giboost(normalized_sc_data, label_vector, desired_length)<br/>
 
 ![](Figure/Figure_3.png)
-**Plot**
+
+## Plot Figures
 
 tsne_data <- data.frame(decision$tsne_data) <br/>  
 ggplot(data = tsne_data, aes(x = tsne_data[,1], y = tsne_data[,2], color = demo_label)) + geom_point()<br/>
