@@ -37,8 +37,8 @@ $~~$
 
 **R Packages**
 libs <- c("tensorflow", "RANN", "xgboost", "rjson", "ggplot2", "foreach", "doParallel", "Matrix", "phateR",
-          "Rtsne", "umap", "brms", "keras", "reticulate", "stringr")
-lapply(libs, library, character.only = TRUE)
+          "Rtsne", "umap", "brms", "keras", "reticulate", "stringr")<br>
+lapply(libs, library, character.only = TRUE)<br>
 
 **load single cell normalized data**
 load("demo_data.rdata")
